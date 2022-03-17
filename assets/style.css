@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(/assets/font/Nunito-Regular.ttf);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 !important;
+  font-family: Nunito;
+}
+/*# sourceMappingURL=style.css.map */

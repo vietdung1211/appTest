@@ -1,0 +1,205 @@
+body {
+  background: url(./../../../assets/images/bg-login.png), -webkit-gradient(linear, left top, left bottom, from(#39dcbe), color-stop(50%, #03a9f4), to(#3f51b5));
+  background: url(./../../../assets/images/bg-login.png), linear-gradient(to bottom, #39dcbe 0%, #03a9f4 50%, #3f51b5 100%);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  height: 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header img {
+  vertical-align: middle;
+  width: 58px;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h6 {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  font-size: 30px;
+  line-height: 15px;
+  text-shadow: 0px 1px 1px #00000050;
+  color: #fff;
+  margin: 0;
+  margin-bottom: -12px;
+}
+
+header h6 span {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+main h2.title {
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+
+main form.box-login {
+  border: none;
+  border-radius: 10px;
+  color: #000000;
+  width: 288px;
+  background: #ffffff90;
+  margin: 0 auto;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 1rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+main form.box-login .line {
+  height: 80%;
+  display: block;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 6px;
+  border-radius: 4px;
+  background-color: #52e5a5;
+}
+
+main form.box-login .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px 10px 5px 18px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+main form.box-login .username label {
+  color: #999999;
+  font-size: 15px;
+}
+
+main form.box-login .username input {
+  width: 90%;
+  border: none;
+  font-size: 16px;
+  padding: 1px 5px;
+}
+
+main form.box-login .username img {
+  position: absolute;
+  right: 11px;
+  bottom: 15px;
+  max-width: 18px;
+}
+
+main form.box-login .username .line {
+  background-color: #52e5a5;
+}
+
+main form.box-login .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px 10px 5px 18px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+main form.box-login .password label {
+  color: #999999;
+  font-size: 15px;
+}
+
+main form.box-login .password input {
+  width: 90%;
+  border: none;
+  font-size: 16px;
+  padding: 1px 5px;
+}
+
+main form.box-login .password img {
+  position: absolute;
+  right: 11px;
+  bottom: 15px;
+  max-width: 18px;
+}
+
+main form.box-login .password .line {
+  background-color: #fb737c;
+}
+
+main form.box-login .forgot {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+main form.box-login .forgot a {
+  color: #fff;
+}
+
+main form.box-login .sign-in {
+  background-color: #52e5a5;
+  padding: 0.875rem 1.15rem;
+  font-size: 1rem;
+  line-height: 28px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+main form.box-login .sign-in a {
+  color: #fff;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  width: 100%;
+  font-size: 17px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 0;
+}
+
+.overlay-image {
+  position: fixed;
+  right: -150px;
+  top: 50%;
+  max-width: 470px;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  z-index: -1;
+}
+/*# sourceMappingURL=sign-in.css.map */

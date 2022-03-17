@@ -1,0 +1,71 @@
+body {
+  background: url(./../../../assets/images/bg-login.png),
+    linear-gradient(to bottom, #39dcbe 0%, #03a9f4 50%, #3f51b5 100%);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  height: 103px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  img {
+    vertical-align: middle;
+    width: 58px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  h6 {
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    line-height: 15px;
+    text-shadow: 0px 1px 1px #00000050;
+    color: #fff;
+    margin: 0;
+    margin-bottom: -12px;
+    span {
+      font-size: 10px;
+      font-weight: 400;
+      margin-top: 5px;
+    }
+  }
+}
+
+main {
+  .banner {
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 336px;
+    }
+  }
+  .box-txt {
+    max-width: 340px;
+    margin: 0 auto;
+    h2.title {
+      font-size: 30px;
+    }
+    p.desc {
+      font-size: 16px;
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  a {
+    color: #fff;
+    font-size: 16px;
+    padding: 6px 0;
+  }
+}

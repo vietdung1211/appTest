@@ -1,0 +1,90 @@
+body {
+  background: url(./../../../assets/images/bg-login.png), -webkit-gradient(linear, left top, left bottom, from(#39dcbe), color-stop(50%, #03a9f4), to(#3f51b5));
+  background: url(./../../../assets/images/bg-login.png), linear-gradient(to bottom, #39dcbe 0%, #03a9f4 50%, #3f51b5 100%);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  height: 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header img {
+  vertical-align: middle;
+  width: 58px;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h6 {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  font-size: 30px;
+  line-height: 15px;
+  text-shadow: 0px 1px 1px #00000050;
+  color: #fff;
+  margin: 0;
+  margin-bottom: -12px;
+}
+
+header h6 span {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+main .banner {
+  text-align: center;
+}
+
+main .banner img {
+  width: 100%;
+  max-width: 336px;
+}
+
+main .box-txt {
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+main .box-txt h2.title {
+  font-size: 30px;
+}
+
+main .box-txt p.desc {
+  font-size: 16px;
+}
+
+footer {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 0;
+}
+/*# sourceMappingURL=loadding.css.map */
